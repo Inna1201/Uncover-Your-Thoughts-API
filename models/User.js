@@ -13,7 +13,10 @@ const userSchema = new Schema(
         type: String,
         required: true,
         unique: true,
-        // Must match a valid email address - Regex
+        match: [
+          /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+          "Please enter a valid email address",
+        ],
       },
     thoughts: [
       {
@@ -43,7 +46,7 @@ userSchema
     return this.friends.length;
 });
 
-// Initialize our User model
-const User = model("user", userSchema);
+// Initializes User model
+const User = model("User", userSchema);
 
 module.exports = User;

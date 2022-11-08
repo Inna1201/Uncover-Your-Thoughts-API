@@ -1,6 +1,6 @@
-const users = [
+const dataUsers = [
   {
-    username: "denniss",
+    username: "dennis",
     email: "dennis@gmail.com",
   },
   {
@@ -44,48 +44,84 @@ const users = [
 const possThoughts = [
   {
     thoughtText: "Save the world",
-    username: "denniss",
+    username: "dennis",
+    reactions: {
+      reactionBody: "let's do it",
+      username: "linda",
+  },
   },
   {
     thoughtText: "Dance classes",
     username: "nina",
+    reactions: {
+      reactionBody: "I'm in",
+      username: "julia",
+  },
   },
   {
     thoughtText: "Candle craft",
     username: "mark",
+    reactions: {
+      reactionBody: "Wow",
+      username: "stan",
+  },
   },
   {
     thoughtText: "Flight booking",
     username: "lisa",
+    reactions: {
+      reactionBody: "Useful",
+      username: "zoe",
+  },
   },
   {
     thoughtText: "Self motivation",
     username: "david",
+    reactions: {
+      reactionBody: "You right",
+      username: "sasha",
+  },
   },
   {
     thoughtText: "Sport activities",
     username: "sasha",
+    reactions: {
+      reactionBody: "enjoy",
+      username: "david",
+  },
   },
   {
     thoughtText: "Best kids applications",
     username: "zoe",
+    reactions: {
+      reactionBody: "books better",
+      username: "lisa",
+  },
   },
   {
     thoughtText: "How to learn french",
     username: "stan",
+    reactions: {
+      reactionBody: "too hard",
+      username: "mark",
+  },
   },
   {
     thoughtText: "Trip to Rome",
     username: "julia",
     reactions: {
         reactionBody: "agree",
-        username: "stan",
+        username: "nina",
     }
-
   },
   {
     thoughtText: "How to wrap a present",
     username: "linda",
+    reactions: {
+      reactionBody: "cool",
+      username: "dennis",
+  }
   },
 ];
 
+module.exports = { dataUsers, possThoughts };
