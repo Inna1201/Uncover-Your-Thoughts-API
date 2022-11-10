@@ -1,4 +1,4 @@
-function dateFormat(date) {
+function formatDate(date) {
     return Intl.DateTimeFormat('default', {
       day: 'numeric',
       month: 'long',
@@ -6,4 +6,16 @@ function dateFormat(date) {
     }).format(new Date(date));
   }
   
-  module.exports = dateFormat;
+  module.exports = formatDate;
+
+
+  // function formatDate(date) {
+  //   return Intl.DateTimeFormat('default', {
+  //     day: 'numeric',
+  //     month: 'long',
+  //     year: 'numeric',
+  //   }).format(new Date(date));
+  // }
+  
+  // module.exports = formatDate;
+  
