@@ -4,10 +4,19 @@ In this challenge I have build from scratch an API for a social network web appl
 
 
 
+## Table of Contents
+
+- [Project requirements](#project-requirements)
+- [Description](#description)
+- [Technology used](#technology-used)
+- [Walkthrough Video](#walkthrough-Video)
+- [Contribution](#contribution)
+
+
+
 # Project requirements
 Build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 Use Express.js for routing, a MongoDB database, and the Mongoose ODM.
-
 
 
 
@@ -22,6 +31,23 @@ I have tasted application functionality in Insomnia.
 
 
 
+# Technology used
 
-# Link
+- Javascript
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Moment
+
+
+
+# Walkthrough Video
 [Web page](https://drive.google.com/file/d/1AneNYo5cXV_DvJggvvET7CkPKmIGJNvv/view)
+
+
+
+## Contribution
+
+Created by Inna Mamedova.
+GitHub: https://github.com/Inna1201.
