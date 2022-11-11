@@ -16,6 +16,6 @@ connection.once("open", async () => {
 
   console.table(dataUsers);
   console.table(possThoughts);
-  console.info("Seeding complete! 🌱");
+  console.info("Seeding completed.");
   process.exit(0);
 });

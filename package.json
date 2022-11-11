@@ -1,7 +1,7 @@
 {
   "name": "Week-18_Challenge",
   "version": "1.0.1",
-  "description": "Mongoose back-end project - Main",
+  "description": "Mongoose back-end application",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
